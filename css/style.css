@@ -1,0 +1,53 @@
+*{
+    box-sizing: ;
+}
+
+body {
+    background-color: brown;
+}
+
+.beige {
+
+    background-color: beige;
+    height: 10vh
+}
+
+.negro {
+
+    background-color: black;
+    height: 10vh
+}
+
+.centrar {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.animate__animated.animate__fadeInLeftBig {
+    --animate-duration: 4s;
+  }
+
+  .animate__animated.animate__fadeInRightBig {
+    --animate-duration: 6s;
+  }
+
+  .animate__animated.animate__backInDown {
+    --animate-duration: 6s;
+  }
+
+  .animate__animated.animate__backInUp {
+    --animate-duration: 7s;
+  }
+  .animate__animated.animate__flip {
+    --animate-duration: 10s;
+  }
+  .animate__animated.animate__rotateInUpRight {
+    --animate-duration: 5s;
+  }
+
+  .animate__animate.animated__rotateInDownRight {
+    --animate-duration: 5s;
+  }
